@@ -1,1 +1,22 @@
-Creating merge conflicts
+10 Git Commmands
+
+1. Git Clean :- Cleans the working tree by recursively removing files that are not under version control, starting from the current directory.
+
+2. Git Confi :- A convenient way to set configuration options for your Git installation. You’ll typically only need to use this immediately after installing Git on a new development machine.
+
+3. Git Fetch :- Fetching downloads a branch from another repository, along with all of its associated commits and files. But, it doesn't try to integrate anything into your local repository. This gives you a chance to inspect changes before merging them with your project.
+
+4. Git Init :- Initializes a new Git repository. If you want to place a project under revision control, this is the first command you need to learn.
+
+5. Git Log :- Lets you explore the previous revisions of a project. It provides several formatting options for displaying committed snapshots.
+
+6. Git Revert :- Undoes a committed snapshot. When you discover a faulty commit, reverting is a safe and easy way to completely remove it from the code base.
+
+7. Git Rebase :- Rebasing lets you move branches around, which helps you avoid unnecessary merge commits. The resulting linear history is often much easier to understand and explore.
+
+8. Git Reflog :- Git keeps track of updates to the tip of branches using a mechanism called reflog. This allows you to go back to changesets even though they are not referenced by any branch or tag.
+
+9. Git Remote :- A convenient tool for administering remote connections. Instead of passing the full URL to the fetch, pull, and push commands, it lets you use a more meaningful shortcut.
+
+10. Git Reset :- Undoes changes to files in the working directory. Resetting lets you clean up or completely remove changes that have not been pushed to a public repository.
+
