@@ -1,0 +1,12 @@
+Resolving merge conflict
+
+-> Created a new file with same name as of that in branch_1 "git_commands",  this created conflicts between main branch and new branch "branch_1"
+
+-> "git merge branch_1"
+
+-> To resolve merge conflict, updated the file with the content that I wanted the file to have
+
+-> "git add ."
+
+-> "git commit -m "merge conflict resolved" "
+    
